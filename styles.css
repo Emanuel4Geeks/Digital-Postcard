@@ -1,0 +1,77 @@
+/* Postcard styless */
+
+* {
+	/* border: 1px dashed red; */
+	min-height: 10px;
+}
+
+:root {
+	font-size: 16px;
+	font-family: "Kalam";
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+
+	padding: 0.5em;
+}
+
+/* Postcard header */
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+/* Postcard body */
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 0.3em;
+}
+
+.body-left p {
+	font-size: 0.9em;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: "Kalam";
+}
+
+/* Postcard footer */
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkgrey;
+	padding: auto;
+	font-family: "Kalam";
+}
